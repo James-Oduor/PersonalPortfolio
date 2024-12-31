@@ -8,7 +8,7 @@ Welcome to my personal portfolio! This repository showcases my professional jour
 ![image](https://github.com/user-attachments/assets/9f13bf2f-7cc6-457b-b45b-256398bb46e0)
 
 
-Visit the live website here: [yourportfolio.com](https://yourportfolio.com)
+Visit the live website here: [https://personal-portfolio-james.netlify.app/)
 
 ---
 
@@ -45,7 +45,7 @@ This portfolio is built with:
 
 This portfolio is live and accessible through the following link:
 
-[Visit My Portfolio](https://yourportfolio.com)
+[Visit https://personal-portfolio-james.netlify.app/)
 
 Feel free to explore and contact me through the provided channels.
 
