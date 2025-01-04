@@ -1,7 +1,7 @@
 # 🌟 Personal Portfolio
 
 Welcome to my personal portfolio! This repository showcases my professional journey, skills, projects, and achievements. Dive in to explore what I’ve been working on and how I can contribute to your next big idea. 🚀
-
+https://drive.google.com/file/d/1wX7DEoXJENebYYAKaUGGtz7gseAP7FG4/view
 ---
 
 ## 🖼️ Preview
