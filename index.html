@@ -7,6 +7,54 @@
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            color: white;
+        }
+        .menu {
+            display: flex;
+            gap: 15px;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+        }
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            font-size: 24px;
+        }
+        
+        @media (max-width: 768px) {
+            .menu {
+                display: none;
+                flex-direction: column;
+                background-color: #333;
+                position: absolute;
+                top: 50px;
+                left: 0;
+                width: 100%;
+                text-align: center;
+                padding: 10px 0;
+            }
+            .menu.show {
+                display: flex;
+            }
+            .hamburger {
+                display: block;
+            }
+        }
+    </style>
 </head>
 <body>
   <div id="header">
@@ -61,16 +109,14 @@
                 </div><div class="tab-contents" id="experience">
                     <ul>
                         <li><span>2023-2024</span><br>Javascript,html and css</li>
-                        <li><span>2024-2025</span><br>Finalists in the school games nationals</li>
+                        <li><span>2024-2025</span><br>champions on school games nationals</li>
                         <li><span>2024</span><br>Reaching regionals in the music festivals</li>
                     </ul>
                 </div><div class="tab-contents" id="education">
                     <ul>
                         <li><span>Primary $ Junior secondery</span><br>St.John primary school</li>
 
-                        <li><span>Senior school</span><br>Alliance high</li>
-
-                        <li><span>Senior school</span><br>N/A</li>
+                        <li><span>Senior school</span><br>Mpesa Foundation Academy</li>
 
                     </ul>
                 </div>
@@ -78,7 +124,7 @@
         </div>
     </div>
 </div>
-<!-------------------services----------------------->
+<!-------------------My Craft----------------------->
 <div id="services">
     <div class="container">
         <h1 class="sub-word">My Craft</h1>
@@ -120,7 +166,7 @@
     </div>
 </div>
 
-<!-------------------------PORTFOLIO------------------------->
+<!-------------------------My Role------------------------->
 
 <div id="portfolio">
     <div class="container">
@@ -270,5 +316,6 @@ document.addEventListener("DOMContentLoaded", function () {
     revealSections();
 });
 </script>
+
 </body>
 </html>

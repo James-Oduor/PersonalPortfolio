@@ -10,6 +10,7 @@
   body {
     background: #f5f5f5;
     color: black;
+    background-size: 2px;
   }
   
   /* Header Section */
@@ -442,7 +443,7 @@
         transform: translateY(0);
     }
   }
-  /*------------------------------PORTFOLIO-----------------------------------*/
+  /*------------------------------My Role-----------------------------------*/
   
   
   
@@ -474,7 +475,7 @@
   }
   
   nav ul li {
-    display: inline;
+    display: block;
   }
   
   nav ul li a {
@@ -791,21 +792,7 @@
                   font-size: 2rem;
               }
           }
-          @media screen and (max-width: 768px) {
-              nav {
-                  flex-direction: column;
-                  text-align: center;
-              }
-              nav ul {
-                  flex-direction: column;
-              }
-              .header-text {
-                  font-size: 1rem;
-              }
-              .about-col-1 img {
-                  max-width: 300px;
-              }
-          }
+         
     /* General Fade-in Animation */
   @keyframes fadeIn {
     from {
